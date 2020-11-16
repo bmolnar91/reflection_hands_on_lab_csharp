@@ -7,11 +7,11 @@ namespace AssemblyDemo
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.dll";
+            //string path = @"C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.dll";
 
             // Load specific Assembly
-            Assembly assembly = Assembly.LoadFile(path);
-            ShowAssemblyInfo(assembly);
+            //Assembly assembly = Assembly.LoadFile(path);
+            //ShowAssemblyInfo(assembly);
 
             // Get our Assembly
             Assembly ourAssembly = Assembly.GetExecutingAssembly();
